@@ -33,5 +33,9 @@ module.exports = {
         hardhat: {
             chainId: 1,
         },
+        sepolia: {
+            url: `https://sepolia.infura.io/v3/eb76925db45f4faeb4b026371949c9cf`,
+            accounts: ['5ca30873b4f52b72729a17120d98080b282137f08546042ba34d5f4fb02f17af']
+          }
     },
 };
